@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class New
+{
+	public static void main(String arg[]) 
+	{
+		float a,b,c;
+
+                Scanner scan=new Scanner(System.in);
+
+                System.out.println("Enter first number: ");
+                a=scan.nextFloat();
+                System.out.println("Enter second number: ");
+                b=scan.nextFloat();
+                System.out.println("Enter third number: ");
+                c=scan.nextFloat();
+               if(a>b && a>c)
+               {
+               System.out.println("largest number: "+a);
+               }
+               if(b>a && b>c)
+               {
+               System.out.println("largest number: "+b);
+               }
+               if(c>b && c>a)
+               {
+               System.out.println("largest number: "+c);
+               }
+               
+         
+         }
+}
